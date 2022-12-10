@@ -1,10 +1,13 @@
 
+<<<<<<< HEAD
+=======
 import HomeScreen from './screens/HomeScreen';
+>>>>>>> 4bbdc5f054ea0e2319f5ddceb97350aeab6b62dd
 import { NativeWindStyleSheet } from "nativewind";
-import "./main.css"
-NativeWindStyleSheet.setOutput({
-  default: "native",
-});
+// import "./main.css"
+// NativeWindStyleSheet.setOutput({
+//   default: "native",
+// });
 
 import { NavigationContainer } from '@react-navigation/native';
 
