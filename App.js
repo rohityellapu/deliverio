@@ -1,9 +1,9 @@
 
 import { NativeWindStyleSheet } from "nativewind";
-// import "./main.css"
-// NativeWindStyleSheet.setOutput({
-//   default: "native",
-// });
+import "./main.css"
+NativeWindStyleSheet.setOutput({
+  default: "native",
+});
 
 import { NavigationContainer } from '@react-navigation/native';
 
