@@ -1,6 +1,8 @@
 
 import HomeScreen from './screens/HomeScreen';
 import { NativeWindStyleSheet } from "nativewind";
+
+// For webpack
 import "./main.css"
 NativeWindStyleSheet.setOutput({
   default: "native",
