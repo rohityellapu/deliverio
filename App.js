@@ -1,7 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import { NativeWindStyleSheet } from "nativewind";
-
+import "./main.css"
 NativeWindStyleSheet.setOutput({
   default: "native",
 });
@@ -11,14 +11,7 @@ import { TailwindProvider } from 'tailwindcss-react-native';
 
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
-function HomeScreen() {
-  return (
-    <View style={ { flex: 1, alignItems: 'center', justifyContent: 'center' } }>
-      <Text>Home Screen</Text>
-    </View>
-  );
-}
-
+import HomeScreen from './screens/HomeScreen';
 const Stack = createNativeStackNavigator();
 
 export default function App() {
