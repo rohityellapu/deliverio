@@ -11,6 +11,7 @@ const HomeScreen = () => {
         })
     }, [])
     return (
+<<<<<<< HEAD
         <SafeAreaView>
 
 
@@ -44,6 +45,12 @@ const HomeScreen = () => {
                 <AdjustmentsVerticalIcon color="#00CCBB" />
             </View>
         </SafeAreaView>
+=======
+        <View>
+            <Text className="text-red-500">HomeScreen</Text>
+            <Text className="text-red-500">HomeScreen</Text>
+        </View>
+>>>>>>> 4bbdc5f054ea0e2319f5ddceb97350aeab6b62dd
     )
 }
 
