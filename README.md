@@ -1,7 +1,7 @@
 # Deliverio
 #### Video Demo: [https://youtu.be/gZM1vMrrzIs](https://youtu.be/gZM1vMrrzIs)
-#### Description: A Food Delivery mobile application built on [React-Native](https://reactnative.dev/) with help of [Expo Go](https://expo.dev/) compatible on both Android and iOS. 
-* Used [TailWind CSS](https://www.nativewind.dev/) (NativeWind for React-Native) for aesthetics of screens. 
+#### Description: A Food Delivery mobile application built on [React-Native](https://reactnative.dev/) with help of [Expo Go](https://expo.dev/) compatible on both Android and iOS.
+* Used [TailWind CSS](https://www.nativewind.dev/) (NativeWind for React-Native) for aesthetics of screens.
 * Data is stored and managed by [sanity](https://www.sanity.io/) which uses GraphQL query Language for querying data and designing schema models.
 * The app use [Redux](https://redux.js.org/) state container which stores the state of items in order basket and restaurant state globally.
 * The app contains lots of icons taken from react-native-icons which made easy in sizing and coloring components.
@@ -36,7 +36,7 @@
 ## For Sanity
 Go inside sanity folder and install all depencies and run
 ### `sanity dev` and upon production run `sanity build`
- 
+
 * Note: You must login to sanity and configure your account credentials before running sanity SDK.
 
 ### Note:
