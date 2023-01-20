@@ -17,7 +17,6 @@ const DishRow = ({ id, name, description, image, price }) => {
     if (items.length < 1) return;
     dispatch(removeFromBasket({id}))
   }
-  
   return (
     <>
       <TouchableOpacity
@@ -40,7 +39,9 @@ const DishRow = ({ id, name, description, image, price }) => {
                 borderWidth: 1,
                 borderColor: '#F3F3F4'
               } }
-              source={ image }
+              source={ {
+                uri:image
+              }} 
               className="w-20 h-20 bg-gray-300 p-4 rounded-md"
             />
           </View>

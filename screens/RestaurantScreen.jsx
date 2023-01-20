@@ -35,7 +35,9 @@ const RestaurantScreen = () => {
             imgUrl,
             address,
             description,
-            dishes
+            dishes,
+            long,
+            lat
         }))
     }, [])
 

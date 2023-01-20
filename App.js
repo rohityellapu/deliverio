@@ -1,14 +1,18 @@
+<<<<<<< HEAD
+// import { Platform } from 'react-native';
+
+// // For webpack (comment it if you are using Android or iOS SDK) 
+// import { NativeWindStyleSheet } from 'nativewind';
+
+//   require('./main.css')
+//   NativeWindStyleSheet.setOutput({
+//     default: "native",
+//   });
+=======
 
 import { Platform } from 'react-native';
+>>>>>>> 7d611c521062ae5160886215d96a0ead09c27003
 
-// For webpack (comment it if you are using Android or iOS SDK) 
-import { NativeWindStyleSheet } from 'nativewind';
-if (Platform.OS != 'android') {
-  require('./main.css')
-  NativeWindStyleSheet.setOutput({
-    default: "native",
-  });
-}
 
 
 import { NavigationContainer } from '@react-navigation/native';
@@ -18,6 +22,8 @@ import HomeScreen from './screens/HomeScreen';
 import { Provider } from 'react-redux';
 import store from './store';
 import BasketScreen from './screens/BasketScreen';
+import PreparingScreen from './screens/PreparingScreen';
+import DeliveryScreen from './screens/DeliveryScreen';
 const Stack = createNativeStackNavigator();
 
 export default function App() {
@@ -31,6 +37,8 @@ export default function App() {
           <Stack.Screen name="Basket" component={ BasketScreen }
             options={{presentation:'modal', headerShown:false}}
           />
+          <Stack.Screen name="Preparing" component={ PreparingScreen } options={ { presentation: 'fullScreenModal', headerShown: false } } />
+          <Stack.Screen name="Delivery" component={ DeliveryScreen } options={ { presentation: 'fullScreenModal', headerShown: false } } />
       </Stack.Navigator>
       </Provider>
     </NavigationContainer>
