@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // import { Platform } from 'react-native';
 
 // // For webpack (comment it if you are using Android or iOS SDK) 
@@ -7,6 +8,11 @@
 //   NativeWindStyleSheet.setOutput({
 //     default: "native",
 //   });
+=======
+
+import { Platform } from 'react-native';
+>>>>>>> 7d611c521062ae5160886215d96a0ead09c27003
+
 
 
 import { NavigationContainer } from '@react-navigation/native';
